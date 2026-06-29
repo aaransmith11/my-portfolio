@@ -56,6 +56,25 @@ nav ul a:hover {
     line-height: 1.6;
 }
 
+#about {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    color: #1a1a2e;
+    margin-bottom: 12px;
+}
+
+#about p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
 nav h1 {
     font-size: 24px;
     font-weight: 500;
@@ -85,4 +104,68 @@ footer {
     padding: 20px;
     color: #999;
     font-size: 13px;
+}
+
+.project-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.project-card {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 24px;
+    flex: 1;
+    border: 1px solid rgba(26, 26, 46, 0.15);
+}
+
+.project-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+}
+
+.project-card p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.project-card a {
+    font-size: 13px;
+    color: #1a1a2e;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid #1a1a2e;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(26, 26, 46, 0.15);
+    background: rgba(26, 26, 46, 0.04);
+    transition: all 0.3s ease;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-badge {
+    background: rgba(26, 26, 46, 0.08);
+    color: #1a1a2e;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid rgba(26, 26, 46, 0.15);
+}
+
+.skill-badge:hover {
+    background: #1a1a2e;
+    color: white;
+    transition: all 0.2s ease;
 }
